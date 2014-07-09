@@ -6374,3 +6374,7 @@ background-image: linear-gradient(to bottom right, #75EDFF 0%, #EFC2DA 100%);
   margin-left:15%;
   margin-right: 25%;
 }
+#aboutdivison{
+  padding:15px;
+  text-align: justify;
+}
