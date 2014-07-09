@@ -6210,11 +6210,167 @@ li a:hover{
 #footercol1 p{
   padding-left:10px;
   text-indent: 10px;
+  height:170px;
+  background-color: #5aa098;
 }
 #footerbar{
-  margin-top: 150px;
   background-color: rgba(0,0,0,0.2);
-  height:auto;
+  margin-top: 50 px;
   width:100%;
   text-align: center;
+  height:180px;
+  color:white;
+  border-radius: 2px;
+  text-align: justify;
+}
+#footercol2{
+  height:110px;
+  padding:0px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 2px;
+  color:#777;
+
+}
+#footercol1{
+  padding-top: 15px;
+  height:110px;
+  text-align: justify;
+  border-radius: 2px;
+  box-shadow: 2px;
+}
+body{
+  /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #75EDFF 0%, #EFC2DA 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #75EDFF 0%, #EFC2DA 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #75EDFF 0%, #EFC2DA 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #75EDFF), color-stop(1, #EFC2DA));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #75EDFF 0%, #EFC2DA 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #75EDFF 0%, #EFC2DA 100%);
+
+  font-family: sans-serif,serif,times new roman;
+}
+#footercol1
+{
+  display: inline-block;
+}
+#footercol1 ul{
+  display: inline-block;
+}
+#footercol1 ul li{
+  display: inline-block;
+  margin: 8px;
+}
+#footercol1 ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color:white;
+  padding:4px;
+  border-radius: 5px;
+}
+#footercol1 ul li a:link{
+  margin: 3px;
+  color:#777;
+}
+
+#footercol1 ul li a:visited{
+  color:#777;
+}
+#footercol1 ul li a:hover{
+  background-color: pink;
+  border-radius: 3px;
+}
+#headerwrapper h2{
+  padding:5px;
+  margin-left: 124px;
+  font-size: 35px;
+  font-weight: bold;
+  color:#428Baa;
+   
+} 
+@font-face {
+    font-family: black olives;
+    src: url(fonts/Black Olives demo.ttf);
+    font-weight:bold;
+}
+#headerwrapper{
+  height: 150px;
+  width: auto;
+}
+#headerwrapper h2{
+  margin-left:33%;
+}
+#footerbar h3{
+  text-align: center;
+}#footerbar h4{
+  text-decoration: none;
+  margin: 2px;
+}
+#footermain h3{
+  color:gray;;
+}
+#bodycontent{
+  text-align: center;
+  font-size: 12px;
+}
+#bodycontent p{
+  padding:15px 15px 25px 25px;
+}
+#bodycontent p{
+  text-align: justify;
+}
+#bodycontent img{
+  margin-top: 80px;
+}
+.mapdivison{
+  margin: 25px 35px 10px 40px;
+}
+#addressheader{
+  text-align: center;
+}
+#address{
+  text-align: center;
+}
+#social{
+  margin-top: 20px;
+}
+#social a{
+  padding: 5px;
+}
+#signin{
+  width:750px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  margin-left: 21%;
+  margin-right: 25%;
+  padding: 25px;
+  margin-bottom: 25px;
+  color:#777;
+}
+#signinform input{
+  width:155px;
+}
+#uname{
+  margin-left:37%;
+  margin-right: 25%;
+}
+#pword{
+  margin-left:37%;
+  margin-right: 25%;
+}
+#sbutton{
+  margin-left:15%;
+  margin-right: 25%;
 }
